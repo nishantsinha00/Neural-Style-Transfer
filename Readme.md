@@ -1,19 +1,26 @@
-# Neural Style Transfer with VGG19
-
-![Neural Style Transfer](output.png)
+# Artistic Style Transfer
 
 ## Overview
 
-This project implements Neural Style Transfer using the VGG19 convolutional neural network. Neural Style Transfer is a technique that combines the content of one image with the style of another, creating visually appealing and artistic results. In this implementation, we leverage the powerful feature extraction capabilities of VGG19 to achieve impressive stylized images.
+ - This project implements Neural Style Transfer using the VGG19 convolutional neural network and introduces an additional approach using CycleGAN. Neural Style Transfer is a technique that combines the content of one image with the style of another, creating visually appealing and artistic results. 
+ - In the CycleGAN approach, we leverage the power of Generative Adversarial Networks (GANs) to achieve artistic style transfer in a different way. The dataset used to train the GAN is [Monet2Photos](https://www.kaggle.com/competitions/gan-getting-started/data?select=photo_jpg)
 
-## Table of Contents
+## Neural Style Transfer with VGG19
 
-- [Demo](#demo)
-- [Installation](#installation)
+![Neural Style Transfer](output.png)
 
-## Demo
+## CycleGan
 
+![CycleGan](download.jpg)
+
+
+## Results
+
+### Neural Style Transfer
 ![Demo Image 1](style_transfer_iterations.gif)
+
+### CycleGan
+![Demo Image 2](output2.png)
 
 
 ## Installation
